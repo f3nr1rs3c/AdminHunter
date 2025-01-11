@@ -12,7 +12,7 @@ def clear_screen():
 def print_banner():
     f = Figlet(font='slant', width=100)
     print(Fore.RED + f.renderText('Admin Hunter'))
-    print(Fore.MAGENTA + "                      | - |  By : F3NR1R - Cyber Security | - |         " + Fore.RESET)
+    print(Fore.MAGENTA + "                      | - |  By : F3NR1R - Cyber Security | - |         \n" + Fore.RESET)
 
 def validate_url(url):
     if not url.startswith("http://") and not url.startswith("https://"):
